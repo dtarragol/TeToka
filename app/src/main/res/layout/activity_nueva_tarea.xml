@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    tools:context=".Activity_NuevaTarea">
+
+    <LinearLayout
+        android:id="@+id/LL2"
+        android:layout_width="wrap_content"
+        android:layout_height="663dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="@string/lbl_tareaCrear"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <EditText
+            android:id="@+id/txt_nombreTarea"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:background="@color/box"
+            android:ems="10"
+            android:hint="@string/txt_nombre_t"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/oscuro_azulado" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+
+        <Spinner
+            android:id="@+id/spEstancias"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/box" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Spinner
+            android:id="@+id/spDias"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/box" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <EditText
+            android:id="@+id/txt_descTarea"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/box"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/txt_desc_t"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textColorHint="@color/oscuro_azulado" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/Guardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/luminoso"
+            android:onClick="guardarTarea"
+            android:text="@string/btn_guardarTarea"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/Cancelar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/oscuro_azulado"
+            android:textColor="@color/white"
+            android:onClick="volver"
+            android:text="@string/btn_volver" />
+    </LinearLayout>
+
+</RelativeLayout>

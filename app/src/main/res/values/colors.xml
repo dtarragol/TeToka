@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="fondo2">#87BBFF</color>
+    <color name="luminoso2">#3868A8</color>
+    <color name="oscuro2">#69A6F5</color>
+    <color name="oscuro_azulado2">#F5C469</color>
+    <color name="box2">#A87B27</color>
+
+
+
+
+    <color name="fondo">#87BBFF</color>
+    <color name="luminoso">#3868A8</color>
+    <color name="oscuro">#69A6F5</color>
+    <color name="oscuro_azulado">#A87B27</color>
+    <color name="box">#F5C469</color>
+</resources>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">HouseSchedule</string>
+
+    <string name="lbl_usuario">Escoge un usuario:
+    </string>
+    <string name="lbl_tarea">Escoge una tarea:
+    </string>
+    <string name="lbl_tareaCrear">Nueva tarea:</string>
+    <string name="txt_nombre_t"> Nombre</string>
+    <string name="txt_desc_t"> Descripción</string>
+    <string name="txt_dia_t"> Dia</string>
+    <string name="sp_estancias"> Escoge una estancia</string>
+
+
+    <string name="btn_agregarUsuario">Nuevo usuario</string>
+    <string name="btn_tareas">Tareas</string>
+    <string name="btn_opciones">Configurar</string>
+
+    <string name="btn_borrar_usuarios">Borrar usuarios</string>
+    <string name="btn_borrar_actividades">Borrar tareas</string>
+    <string name="btn_crear_actividad">Crear tareas</string>
+    <string name="btn_borrar_estancias">Borrar estancias</string>
+    <string name="btn_crear_estancias">Crear estancias</string>
+
+
+    <string name="btn_guardarTarea">Guardar</string>
+
+    <string name="btn_borrar">Borrar</string>
+    <string name="btn_volver">Volver</string>
+    <string name="btn_salir">Salir</string>
+
+
+
+    <string name="pop_title">Bienvenid@</string>
+    <string name="pop_desc">Recomendación: &#xA;
+    Para que funcione correctamente, hay que crear en primer lugar los USUARIOS, ESTANCIAS y TAREAS (desde "CONFIGURAR")</string>
+</resources>
